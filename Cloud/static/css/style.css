@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.more li {
+    list-style: none;
+    display: inline-block;
+}
+
+.table td, .table th {
+    text-align: center;
+}
+
+a{
+    color: #333;
+}
+
+.table_center th {
+    line-height:2em;
+}
+
+.btn-group .btn {
+    margin: 0 5px;
+}
+
+.idx .writer, .date, .inke, .download {
+    width: 25%;
+}
+
+.file {
+    max-width: 555px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.p-mb-0 p {
+    margin-bottom:0;
+}
+
+.table tr {
+    line-height: 32px;
+}
+
+.card ul {
+    margin: 0;
+}
+
+.card ul:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.card li {
+    float: left;
+    list-style:none;
+    font-size:0;
+}
+
+.dn {
+    display: none;
+}
